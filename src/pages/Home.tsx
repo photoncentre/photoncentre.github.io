@@ -27,15 +27,42 @@ const Home: React.FC = () => {
   }, []);
   const upcomingEvents = [
     {
-      date: '2025-07-14',
-      title: 'Dust evolution across cosmic times as seen through DUSTY-GAEA',
-      speaker: 'Dr. Omima Osman',
-      affiliation: 'INAF – Trieste Observatory, Italy',
-      time: '11:00 AM (GMT+2 Khartoum)',
-      type: 'Final Talk of PWF-Sudan',
-      link: 'https://indico.ictp.it/event/11074',
+      date: '2026-07-27',
+      endDate: '2026-08-08',
+      title: 'Registration Open: Expanding Horizons in Physics in Sudan II (PWF2)',
+      type: 'Physics Without Frontiers Workshop',
       featured: true,
-      description: 'Join us for a deep dive into cosmic dust and galaxy evolution using next-gen simulations!'
+      image: '/media/images/PWFll_Sudan_Final_Poster.jpg',
+      description: `Applications are now open for the second Physics Without Frontiers (PWF) workshop in Sudan! This nine-day online event, in partnership with ICTP (Trieste, Italy), will focus on Density Functional Theory (DFT) methods and applications.\n\nDeadline for applications: 20 June 2026.\n\nThe workshop features daily lectures and hands-on tutorials with leading international experts. Participants will gain practical experience with Quantum ESPRESSO, Python, and ASE, and build foundations for independent research and international collaboration.`,
+      speakers: [
+        'Richard Martin – University of Illinois & Stanford University, USA',
+        'Matteo Gatti & Fatema Mohamed – École Polytechnique LSI, France',
+        'Natasa Stojic – ICTP, Italy',
+        'Michele Pavanello – Rutgers University, USA',
+        'Andre Schleife – University of Illinois Urbana-Champaign, USA',
+        'Alberto Carta – Paul Scherrer Institut, Switzerland',
+        'Iurii Timrov – Paul Scherrer Institut, Switzerland',
+        'Christian Carbogno – Fritz Haber Institute, Berlin, Germany',
+        'Omololu Akin-Ojo – University of Ibadan, Nigeria'
+      ],
+      topics: [
+        'Quantum mechanics',
+        'Solid-state physics',
+        'Computational materials science',
+        'DFT fundamentals',
+        'Band structure calculations',
+        'DFT+U',
+        'Phonons',
+        'Machine learning in electronic structure'
+      ],
+      whoShouldApply: 'Advanced undergraduates, MSc students, and early PhD researchers in physics, chemistry, materials science, or related fields — with basic exposure to quantum mechanics or solid-state physics.',
+      registrationDeadline: '2026-06-20',
+      time: 'Online',
+      link: 'https://tinyurl.com/yc6mu6z4',
+      programme: 'https://indico.ictp.it/event/11353/',
+      website: 'https://www.photoncentre.org',
+      organizedBy: 'Photon SCNSM in partnership with ICTP Physics Without Frontiers',
+      certificates: true
     }
     // {
     //   date: '2024-03-15',
@@ -277,10 +304,12 @@ const Home: React.FC = () => {
                   >
                     {event.featured && (
                       <div className="mb-4">
+                        {event.image && (
+                          <img src={event.image} alt="PWF2 Poster" className="w-full max-w-md rounded-lg mb-3" />
+                        )}
                         <div className="flex items-center gap-2 mb-2">
-                          <span className="text-2xl">📅</span>
                           <span className="bg-orange-500 text-white px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide">
-                            Final Talk of PWF-Sudan
+                            Registration Open: PWF2
                           </span>
                         </div>
                         {event.description && (
@@ -321,11 +350,16 @@ const Home: React.FC = () => {
                     
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
                       <div>
-                        <p className="text-slate-600">
-                          Speaker: <span className="font-semibold">{event.speaker}</span>
-                        </p>
-                        {event.affiliation && (
-                          <p className="text-slate-500 text-sm">{event.affiliation}</p>
+                        {event.speakers && event.speakers.length > 0 && (
+                          <div className="mb-2">
+                            <span className="font-semibold">Speakers:</span>
+                            <ul className="list-disc list-inside text-slate-600 text-sm mt-1">
+                              {event.speakers.slice(0, 4).map((speaker, idx) => (
+                                <li key={idx}>{speaker}</li>
+                              ))}
+                              {event.speakers.length > 4 && <li>and more…</li>}
+                            </ul>
+                          </div>
                         )}
                       </div>
                       {event.link && (
@@ -339,7 +373,7 @@ const Home: React.FC = () => {
                               : 'bg-teal-500 text-white hover:bg-teal-600'
                           }`}
                         >
-                          📄 View Abstract
+                          📝 Apply Here
                           <ArrowRight className="ml-1 w-3 h-3" />
                         </a>
                       )}
