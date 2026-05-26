@@ -20,8 +20,22 @@
     <meta property="twitter:title" content="Photon Scientific Centre - Natural Sciences and Metaphysics">
     <meta property="twitter:description" content="Explore the latest in natural sciences and metaphysics at Photon Scientific Centre. Join our journey of discovery, exploration, and enlightenment.">
     <meta property="twitter:image" content="https://images.pexels.com/photos/256262/pexels-photo-256262.jpeg">
-    <script type="module" crossorigin src="/assets/index-Bbi96KCw.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-9KZBQ1Ec.css">
+    
+    <!-- GitHub Pages SPA redirect handler -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <script type="module" crossorigin src="/assets/index-IhyrASwy.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Cw6_kCyw.css">
   </head>
   <body>
     <div id="root"></div>

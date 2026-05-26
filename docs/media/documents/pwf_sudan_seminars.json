@@ -1,0 +1,190 @@
+[
+  {
+    "topic": "Environmental Science",
+    "title": "Formation Fundamentals of Global Environmental Change and Related Physical Processes",
+    "speaker": "Prof. Adil Haseeb",
+    "affiliation": "University of Khartoum, Sudan",
+    "datetime": "2 June 2025, 11:00 AM – 12:30 PM (GMT+2:00) Khartoum",
+    "abstract": "Global environmental change encompasses significant alterations in Earth's systems due to natural processes and human activities. Key physical processes include the greenhouse effect, atmospheric and oceanic circulation, the hydrological and carbon cycles, and cryosphere dynamics. Human-induced activities, such as deforestation, fossil fuel combustion, and urbanization, intensify these changes, disrupting ecosystems and climate patterns. Consequences include rising temperatures, sea-level rise, biodiversity loss, and more frequent extreme weather events. Understanding these interconnected processes is essential for developing effective mitigation strategies to ensure environmental sustainability. The role of advancements in renewable energy technologies, including solar power, wind energy, and nuclear fusion, will be examined.",
+    "keywords": [
+      "Climate Change",
+      "Greenhouse Effect",
+      "Environmental Sustainability",
+      "Renewable Energy",
+      "Earth Systems"
+    ],
+    "indico_link": "",
+    "screenshot_image": "/media/images/seminars/adil_haseeb.png"
+  },
+  {
+    "topic": "Environmental Science",
+    "title": "Climate Change: Scientific Evidence, Risks, and Mitigation Opportunities",
+    "speaker": "Prof. Filippo Giorgi",
+    "affiliation": "ICTP, Italy",
+    "datetime": "9 June 2025, 11:00 AM – 12:30 PM (GMT+2:00) Khartoum",
+    "abstract": "In this lecture I will review the main scientific concepts and evidence of the ongoing global warming...",
+    "keywords": [
+      "Climate Change",
+      "Global Warming",
+      "Climate Projections",
+      "Greenhouse Gas Emissions"
+    ],
+    "indico_link": "https://indico.ictp.it/event/11051",
+    "screenshot_image": "/media/images/seminars/giorgi_screenshot.png"
+  },
+  {
+    "topic": "Experimental Physics",
+    "title": "Experimental Techniques in Physics",
+    "speaker": "Dr. Mohammed Al Sheikh Hamad",
+    "affiliation": "Yanbu University, KSA",
+    "datetime": "9 June 2025, 3:00 PM – 4:30 PM (GMT+2:00) Khartoum",
+    "abstract": "This presentation starts by overviewing experimental measurement techniques in physics, with particular emphasis on the introduction of instrumentation concepts such as instrument sensitivity, accuracy and resolution, the knowledge of which is essential for reliable data acquisition. After surveying fundamental measurement approaches, including low-level current measurements and quantum transport characterisation, we will focus on impedance spectroscopy, which is a versatile technique applicable across physics, chemistry, and biology. This will pave the way for elaborating the discussion on the interesting non-invasive, contamination-free method of contactless impedance spectroscopy. The discussion will show means for extracting and analyzing frequency- and temperature-dependent dielectric properties using a contactless measurement setup where electrodes are capacitively coupled to liquid samples through capillary tube walls. Key instrumentation concepts, including sensitivity, accuracy, and signal-to-noise considerations, will be applied to assess measurement suitability based on sample polarization properties and tube wall capacitance. Executing these measurements via the Keysight impedance analyzers will also be illustrated. The emphasis on impedance spectroscopy stems from its broad applicability across scientific disciplines and its ability to reveal rich biophysical and physical chemistry information through electrical relaxation phenomena. This technique exemplifies how a proper understanding of instrument limitations and measurement physics enables the extraction of fundamental material properties from complex experimental data.",
+    "keywords": [
+      "Impedance Spectroscopy",
+      "Contactless Measurement",
+      "Instrument Sensitivity",
+      "Dielectric Properties",
+      "Experimental Physics"
+    ],
+    "indico_link": "",
+    "screenshot_image": "/media/images/seminars/alsheikh.png"
+  },
+  {
+    "topic": "Experimental Physics",
+    "title": "Ambient and Near-ambient Pressure X-ray Photoemission for Advanced Catalysts",
+    "speaker": "Dr. Frederik Schiller",
+    "affiliation": "Centro de Física de Materiales (CSIC), Spain",
+    "datetime": "12 June 2025, 11:00 AM – 12:30 PM (GMT+2:00) Khartoum",
+    "abstract": "One of the most pressing global challenges today is ensuring access to essential resources...",
+    "keywords": [
+      "Catalysis",
+      "X-ray Photoemission",
+      "Surface Science"
+    ],
+    "indico_link": "https://indico.ictp.it/event/11052",
+    "screenshot_image": "/media/images/seminars/schiller_screenshot.png"
+  },
+  {
+    "topic": "Theoretical Physics",
+    "title": "The Standard Model: Higgs Boson",
+    "speaker": "Prof. Jonathan Ellis",
+    "affiliation": "King's College London, UK",
+    "datetime": "19 June 2025, 11:00 AM – 12:30 PM (GMT+2:00) Khartoum",
+    "abstract": "This talk reviews the Standard Model of particle physics and explores Higgs boson discoveries.",
+    "keywords": [
+      "Standard Model",
+      "Higgs Boson",
+      "Fundamental Particles"
+    ],
+    "indico_link": "https://indico.ictp.it/event/11062",
+    "screenshot_image": "/media/images/seminars/ellis_screenshot.png"
+  },
+  {
+    "topic": "Condensed Matter Physics",
+    "title": "Short introduction to computational materials science and DFT",
+    "speaker": "Dr. Natasa Stojic",
+    "affiliation": "ICTP, Italy",
+    "datetime": "25 June 2025, 11:00 AM – 12:30 PM (GMT+2:00) Khartoum",
+    "abstract": "This presentation provides a foundational introduction to computational materials science and density functional theory (DFT). We will explore how computational methods have revolutionized our understanding of materials properties and behavior at the atomic scale. The lecture will cover fundamental concepts of DFT, its applications in predicting material properties, and how these computational approaches complement experimental techniques in modern materials research.",
+    "keywords": [
+      "Computational Materials Science",
+      "Density Functional Theory",
+      "DFT",
+      "Materials Properties",
+      "Atomic Scale Modeling"
+    ],
+    "indico_link": "",
+    "screenshot_image": "/media/images/seminars/stojic.png"
+  },
+  {
+    "topic": "Condensed Matter Physics",
+    "title": "A Journey to the Center of the Earth with Deep-Learning Simulations",
+    "speaker": "Prof. Sandro Scandolo",
+    "affiliation": "ICTP, Trieste, Italy",
+    "datetime": "26 June 2025, 10:00 AM – 11:30 AM (GMT+2:00) Khartoum",
+    "abstract": "Buried more than 5,000 km deep, the Earth's inner core is still largely unknown...",
+    "keywords": [
+      "Earth Core",
+      "Deep Learning",
+      "Molecular Dynamics"
+    ],
+    "indico_link": "https://indico.ictp.it/event/11053",
+    "screenshot_image": "/media/images/seminars/Scandolo_screenshot.png"
+  },
+  {
+    "topic": "Theoretical Physics",
+    "title": "Reformulations of Electromagnetism: Maxwell to Curved Spacetime",
+    "speaker": "Prof. Arbab I. Arbab",
+    "affiliation": "Qassim University, Saudi Arabia",
+    "datetime": "3 July 2025, 11:00 AM – 1:00 PM (GMT+2:00) Khartoum",
+    "abstract": "A historical and mathematical journey through reformulations of Maxwell's equations in the context of curved spacetime.",
+    "keywords": [
+      "Electromagnetism",
+      "Maxwell",
+      "Spacetime",
+      "Unification"
+    ],
+    "indico_link": "",
+    "screenshot_image": "/media/images/seminars/Alsheikh_screenshot.png"
+  },
+  {
+    "topic": "Astronomy",
+    "title": "Exploring the Cosmic Symphony: From Photons to the Ripples of Spacetime",
+    "speaker": "Dr. Hassan Abdallah",
+    "affiliation": "Universidad Complutense de Madrid, Spain",
+    "datetime": "6 July 2025, 11:00 AM – 12:30 PM (GMT+2:00) Khartoum",
+    "abstract": "This lecture explores how multi-messenger astronomy unravels the mysteries of the cosmos...",
+    "keywords": [
+      "Cosmic Signals",
+      "Gravitational Waves",
+      "Photon Astronomy"
+    ],
+    "indico_link": "",
+    "screenshot_image": "/media/images/seminars/abdallah_screenshot.png"
+  },
+  {
+    "topic": "Cosmology",
+    "title": "Key Concepts in Cosmology",
+    "speaker": "Dr. Sultan Hassan",
+    "affiliation": "New York University, USA",
+    "datetime": "7 July 2025, 2:00 PM – 3:30 PM (GMT+2:00) Khartoum",
+    "abstract": "JWST discoveries, implications for cosmological models, and career insights in astronomy.",
+    "keywords": [
+      "JWST",
+      "Cosmic Origins",
+      "Careers in Astronomy"
+    ],
+    "indico_link": "",
+    "screenshot_image": "/media/images/seminars/hassan_screenshot.png"
+  },
+  {
+    "topic": "Cosmology",
+    "title": "From the Birth of Modern Cosmology to the Mystery of Dark Energy",
+    "speaker": "Dr. Emiliano Sefusatti",
+    "affiliation": "Trieste Observatory of INAF and SISSA, Italy",
+    "datetime": "10 July 2025, 10:00 AM – 11:30 AM (GMT+2:00) Khartoum",
+    "abstract": "The evolution of modern cosmology, Friedmann's equations, and observational insights into dark energy.",
+    "keywords": [
+      "Cosmology",
+      "Dark Energy",
+      "Galaxy Surveys"
+    ],
+    "indico_link": "https://indico.ictp.it/event/11073",
+    "screenshot_image": "/media/images/seminars/sefusatti_screenshot.png"
+  },
+  {
+    "topic": "Astronomy",
+    "title": "Dust Evolution Across Cosmic Times as Seen Through DUSTY-GAEA",
+    "speaker": "Dr. Omima Osman",
+    "affiliation": "INAF, Italy",
+    "datetime": "14 July 2025, 11:00 AM – 12:30 PM (GMT+2:00) Khartoum",
+    "abstract": "In this talk, we will examine how dust evolution influences the observation and modeling of galaxy formation and cosmic history.",
+    "keywords": [
+      "Dust",
+      "Galaxy Evolution",
+      "DUSTY-GAEA"
+    ],
+    "indico_link": "",
+    "screenshot_image": "/media/images/seminars/stojic_screenshot.png"
+  }
+]
